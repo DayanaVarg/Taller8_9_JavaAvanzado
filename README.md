@@ -1,4 +1,4 @@
-# Taller 8 y 9 - Java Web (TEmplates, Forwardng, Redirection)
+# Taller 8 y 9 - Java Web (TEmplates, Forwarding, Redirection)
 # JAVA_AVANZADO
 ***
 Proyecto diseñado y creado especialmente para la elaboración de trabajos y actividades realizadas en clase.
@@ -11,7 +11,7 @@ Proyecto diseñado y creado especialmente para la elaboración de trabajos y act
 
 ### Descripción
 ***
-* EL proyecto se basa principalmente en una serie de actividades o aplicativos web propuestos en la clase JAVA AVANZADO, todo con el fin de mejorar y ayudar a nuestro aprendizaje. Ya completamos con 5 aplicativos web, un index, un login, un formulario de registro, un formulario de registro para Categorías y un formulario de registro para Productos, cada uno con sus estilos correspondientes. Además de contar con la conexión a base de datos y sus respectivos beans, en este caso ConnectionPool, User, Category, y Product, sin dejar atrás el Repository Pattern de cada uno de ellos, con su respectiva interfaz Repository, y la clase que hace la implementación de esta. Agregando aquí, los servlets de cada una de nuestros beans, en este caso UserRegisterServlet, CategoryRegisterServlet y ProductRegisterServlet. Como actualización le agrgamos el uso de Forwarding para las rutas
+* EL proyecto se basa principalmente en una serie de actividades o aplicativos web propuestos en la clase JAVA AVANZADO, todo con el fin de mejorar y ayudar a nuestro aprendizaje. Ya completamos con 5 aplicativos web, un index, un login, un formulario de registro, un formulario de registro para Categorías y un formulario de registro para Productos, cada uno con sus estilos correspondientes. Además de contar con la conexión a base de datos y sus respectivos beans, en este caso ConnectionPool, User, Category, y Product, sin dejar atrás el Repository Pattern de cada uno de ellos, con su respectiva interfaz Repository, y la clase que hace la implementación de esta. Agregando aquí, los servlets de cada una de nuestros beans, en este caso UserRegisterServlet, CategoryRegisterServlet y ProductRegisterServlet. Como actualización le agregamos el uso de Forwarding para las rutas de navegación.
 
 ### Estado del proyecto
 ***
@@ -50,9 +50,14 @@ Proyecto diseñado y creado especialmente para la elaboración de trabajos y act
 ***
 * Cuenta con las mismas etiquetas del Login, salvo que aquí solo contiene un input, para almacenar el nombre de la categoría. Especialmente funciona para el registro de una categoría nueva.
 
+![image](https://github.com/DayanaVarg/Taller8_9_JavaAvanzado/assets/128272265/d81485d0-dccd-497d-9c30-2fa2635c0ad7)
+
+
 #### Formulario de registro para Productos
 ***
 * Cuenta con las mismas etiquetas del Login, contiene tres inputs, para almacenar el nombre del producto, su valor, y la categoría a la que pertenece. Especialmente funciona para el registro de un producto nuevo.
+
+![image](https://github.com/DayanaVarg/Taller8_9_JavaAvanzado/assets/128272265/9f0324c2-9756-4c71-a106-8fc58ae112ee)
 
 #### ConnectionPool
 ***
@@ -84,22 +89,14 @@ Proyecto diseñado y creado especialmente para la elaboración de trabajos y act
 #### UserRegisterServlet
 ***
   * Recibe los datos enviados a traves del formulario de registrar Usuario, y llama el método necesario para el almacenamiento y la creación de un nuevo registro con estos.
-  
-![image](https://github.com/DayanaVarg/Taller7-JavaAvanzado/assets/128272265/a69cedc6-a5f0-4484-ae1b-2588ca2484de)
-![image](https://github.com/DayanaVarg/Taller7-JavaAvanzado/assets/128272265/8deb3eb4-5314-4e91-ae2c-d0b926a7173e)
 
 #### CategoryRegisterServlet
 ***
   * Recibe los datos enviados a traves del formulario de registrar Categoría, y llama el método necesario para el almacenamiento y la creación de un nuevo registro con estos.
-  
-![image](https://github.com/DayanaVarg/Taller7-JavaAvanzado/assets/128272265/fe46fdc5-212d-4d5e-a8ec-98a3aa8cec1c)
 
 #### ProductRegisterServlet
 ***
   * Recibe los datos enviados a traves del formulario de registrar Producto, y llama el método necesario para el almacenamiento y la creación de un nuevo registro con estos.
-  
-![image](https://github.com/DayanaVarg/Taller7-JavaAvanzado/assets/128272265/5b52ab31-1b79-4972-a424-283e3cbcc269)
-![image](https://github.com/DayanaVarg/Taller7-JavaAvanzado/assets/128272265/6818e022-3e6a-43d5-b4b1-89bcec4c88f6)
   
 ### Tecnologías usuadas
 ***
