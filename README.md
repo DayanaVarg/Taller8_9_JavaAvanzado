@@ -1,4 +1,4 @@
-# Taller 8 y 9 - Java Web (TEmplates, Forwarding, Redirection)
+# Taller 8 y 9 - Java Web (Templates, Forwarding, Redirection)
 # JAVA_AVANZADO
 ***
 Proyecto diseñado y creado especialmente para la elaboración de trabajos y actividades realizadas en clase.
